@@ -1,0 +1,39 @@
+html {
+  font-size: 90%; /* 62.5% of 16px = 10px */
+}
+
+.pie-chart-container .c3-chart-arc text {
+  font-size: 12px;
+  fill: white
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+  padding: 3px 5px;
+}
+
+.ReactTable .rt-thead.-filters input, .ReactTable .-pagination .-pageJump input {
+  font-size: 14px;
+  height: 22px;
+}
+
+.statusIndicator {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.activeKpiRow {
+  -webkit-animation: test 3s infinite;  /* Safari 4+ */
+   -moz-animation: test 3s infinite;  /* Fx 5+ */
+   -o-animation: test 3s infinite;  /* Opera 12+ */
+   animation: test 3s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@keyframes test {
+  50% { background-color: #b2dfdb; }
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
