@@ -175,13 +175,12 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'issaranotify@issarainstitute.org'
-EMAIL_USER = 'issaranotify@issarainstitute.org'
-EMAIL_HOST_PASSWORD = 'jlkadjfklajdlf83423'
-#EMAIL_HOST_PASSWORD = 'kl;ajsdfa09df8088980pjmv8&*!'
+EMAIL_HOST_USER = ''
+EMAIL_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
-DEFAULT_FROM_EMAIL = 'issaranotify@issarainstitute.org'
-EMAIL_SENDER_FROM_ADDRESS = 'issaranotify@issarainstitute.org'
+DEFAULT_FROM_EMAIL = ''
+EMAIL_SENDER_FROM_ADDRESS = ''
 
 
 
